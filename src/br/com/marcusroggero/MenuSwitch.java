@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class MenuSwitch {
 
-	public final static int CADASTRO_PRODUTO 			= 1;
-	public final static int EMISSAONOTA 		= 2;
-	public final static int CANCELARCOMPRA		= 3;
-	public final static int EFETUARVENDA 		= 4;
+	public final static int CADASTRO_PRODUTO	= 1;
+	public final static int EMISSAO_NOTA 		= 2;
+	public final static int CANCELAR_COMPRA		= 3;
+	public final static int EFETUAR_VENDA 		= 4;
 
 	public static void main(String[] args) {
 
@@ -29,15 +29,15 @@ public class MenuSwitch {
 			System.out.println("Cadastro de produtos");
 			break;
 
-		case EMISSAONOTA:
+		case EMISSAO_NOTA:
 			System.out.println("Emitir nota fiscal");
 			break;
 
-		case CANCELARCOMPRA:
+		case CANCELAR_COMPRA:
 			System.out.println("Cancelar compra");
 			break;
 
-		case EFETUARVENDA:
+		case EFETUAR_VENDA:
 			System.out.println("Efetuar venda");
 			break;
 
